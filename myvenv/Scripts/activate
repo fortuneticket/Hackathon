@@ -37,7 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
+VIRTUAL_ENV="C:\Users\minjo\Desktop\Fortune GIT\Hackathon\myvenv"
+=======
 VIRTUAL_ENV="C:\Users\minjo\Desktop\Fortune\Hackathon\myvenv"
+>>>>>>> 6edef33eba9adf9f6a2c283651c808210cda1efe
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

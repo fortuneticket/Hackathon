@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
+set "VIRTUAL_ENV=C:\Users\minjo\Desktop\Fortune GIT\Hackathon\myvenv"
+=======
 set "VIRTUAL_ENV=C:\Users\minjo\Desktop\Fortune\Hackathon\myvenv"
+>>>>>>> 6edef33eba9adf9f6a2c283651c808210cda1efe
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
